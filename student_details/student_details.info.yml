@@ -1,0 +1,5 @@
+name: Student Details
+type: module
+description: 'Provides custom entity student details'
+package: custom
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,11 @@
+student_details.student_data:
+  title: Student
+  parent: system.admin_structure
+  description: 'Upload the student data'
+  route_name: student_details.upload_data
+
+student_details.student_score:
+  title: Score
+  parent: system.admin_structure
+  description: 'Upload the student score'
+  route_name: student_details.upload_score

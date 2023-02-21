@@ -1,0 +1,15 @@
+student_details.upload_data:
+  path: student/upload-data
+  defaults:
+    _form: 'Drupal\student_details\Form\CsvFileForm'
+    _title: 'Upload Student Data'
+  requirements:
+    _role: 'administrator'
+
+student_details.upload_score:
+  path: student/upload-score
+  defaults:
+    _form: 'Drupal\student_details\Form\StudentScoreForm'
+    _title: 'Upload Student Score Data'
+  requirements:
+    _role: 'administrator'
